@@ -1,3 +1,4 @@
+// Color Change
 let BlueColor = document.getElementsByClassName("blue")
 let GreenColor = document.getElementsByClassName("green")
 let RedColor = document.getElementsByClassName("red")
@@ -24,5 +25,21 @@ function reset(){
         RedColor[i].style.backgroundColor = "white"
         RedColor[i].style.Color = "black"
     }
-    
+}
+
+// Current Time
+function CurrentTime(){
+    let LocalTimes = new Date();
+    let hour = LocalTimes.getHours();
+    let time;
+    if(hour<12){
+        time = "Good Morning";
+    }else if(hour<16){
+        time = "Good Afternoon";
+    }else if(hour<18){
+        time = "Good Evening"
+    }else{
+        time = "Good Night";
+    }
+    alert(time);
 }
