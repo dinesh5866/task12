@@ -1,1 +1,61 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* Color Change*/
+.blue{
+    height: 3em;
+    width: 6em;
+    border-radius: 15px;
+    border: none;
+    margin-top: 1em;
+    margin-left: 1em;
+}
+.blue:hover{
+    cursor: pointer;
+    transition: 0.4s ease-in;
+}
+.green{
+    height: 3em;
+    width: 6em;
+    border-radius: 15px;
+    border: none;
+}
+.green:hover{
+    cursor: pointer;
+    transition: 0.4s ease-in;
+}
+.red{
+    height: 3em;
+    width: 6em;
+    border-radius: 15px;
+    border: none;
+}
+.red:hover{
+    cursor: pointer;
+    transition: 0.4s ease-in;
+}
+.reset{
+    height: 3em;
+    width: 6em;
+    border-radius: 15px;
+    border: none;
+}
+.reset:hover{
+    cursor: pointer;
+    transition: 0.4s ease-in;
+}
 
+/* Local Time */
+.time{
+    height: 3em;
+    width: 6em;
+    border-radius: 15px;
+    border: none; 
+}
+.time:hover{
+    cursor: pointer;
+    transition: 0.4s ease-in;
+    background-color: skyblue;
+}
