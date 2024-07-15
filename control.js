@@ -63,3 +63,9 @@ function backspace(){
     let currentValue = display.value
     display.value = currentValue.slice(0,-1);
 }
+function percent(){
+    let num1 = parseFloat(display.value);
+    let num2 = parseFloat(prompt('enter the second number'));
+    let result = (num1/100) * num2;
+    display.value = result.toFixed(2);
+}
