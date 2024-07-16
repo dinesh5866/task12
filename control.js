@@ -44,6 +44,17 @@ function CurrentTime(){
     alert(time);
 }
 
+//Addition two number
+let num1 = document.getElementById("num1")
+let num2 = document.getElementById("num2")
+let result = document.getElementById("result")
+function x(){
+    let num1Value = Number(num1.value)
+    let num2Value = Number(num2.value)
+    let total = num1Value+num2Value
+    result.textContent=total
+}
+
 // mini calculator
 let display = document.getElementById("display")
 function clearDisplay(){
